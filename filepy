@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Filename: "
+read X
+
+chmod +x ${X}
+
+echo -e "\nOutput:"
+
+./${X}
+
+echo -e "\nPycodestyle:"
+pycodestyle --first ${X}
+
+echo -e "\n"
