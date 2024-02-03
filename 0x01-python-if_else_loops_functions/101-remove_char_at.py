@@ -12,7 +12,7 @@ def remove_char_at(str, n):
         for r in range(n):
             cp_str[r] = str[r]
 
-        for r in range(n, len(str)):
-            cp_str[n] = str[n + 1]
+        for r in range(n, len(str) - 1):
+            cp_str[r] = str[r + 1]
 
     return ''.join(cp_str)
