@@ -6,7 +6,7 @@ def remove_char_at(str, n):
 
     if n >= i or n < 0:
         for r in range(len(str)):
-            cp_str[r] = str[r]
+            return (str)
 
     else:
         for r in range(n):
