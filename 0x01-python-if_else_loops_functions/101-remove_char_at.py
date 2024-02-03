@@ -14,5 +14,6 @@ def remove_char_at(str, n):
 
         for r in range(n, len(str) - 1):
             cp_str[r] = str[r + 1]
+        cp_str[len(str)- 1] = ""
 
     return ''.join(cp_str)
