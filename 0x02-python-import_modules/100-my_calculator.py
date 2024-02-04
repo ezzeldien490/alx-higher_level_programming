@@ -11,7 +11,6 @@ if n < 4:
 
 elif argv[2] != "+" and argv[2] != "-" and argv[2] != "*" and argv[2] != "/":
     print("Unknown operator. Available operators: +, -, * and /")
-    print(f"{argv[2]}")
     exit(1)
 
 else:
