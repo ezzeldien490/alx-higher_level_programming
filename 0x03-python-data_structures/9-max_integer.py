@@ -6,7 +6,7 @@ def max_integer(my_list=[]):
 
     else:
         for element in my_list:
-            if not isinstance(element, int):                
-                   return
+            if not isinstance(element, int):
+                return
         my_list.sort()
         return (my_list[len(my_list) - 1])
